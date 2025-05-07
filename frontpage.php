@@ -385,13 +385,10 @@ if ($fields_result && $fields_result->num_rows > 0) {
             </li>
           </ul>
           
-          <?php if(isset($_SESSION['user'])): ?>
-          <!-- Jika belum login -->
           <div class="d-flex gap-2">
             <a href="login.php" class="btn btn-outline-light">Masuk</a>
             <a href="signup.php" class="btn btn-light">Daftar</a>
           </div>
-          <?php endif; ?>
         </div>
       </div>
     </nav>
